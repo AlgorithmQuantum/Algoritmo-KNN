@@ -45,7 +45,7 @@ Funciones Principales
 📥 Instalación y Uso
 Clona el repositorio:
 ```
-git clone https://github.com/tu-usuario/KNN.git
+git clone https://github.com/AlgorithmQuantum/Algoritmo-KNN
 ```
 Compila el programa:
 ```

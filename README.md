@@ -25,7 +25,7 @@ Este proyecto implementa el algoritmo de K-Vecinos más Cercanos (KNN) en lengua
 
 🛠️ Estructura del Código
 Estructuras Principales
-'''
+```
 typedef struct punto {
     float x, y, z;
     char clase[45];
@@ -35,7 +35,7 @@ typedef struct vecino {
     float distancia;
     int indice;
 } vecino;
-'''
+```
 
 Funciones Principales
 - distanciaEuclidea(): Calcula la distancia entre dos puntos
@@ -44,17 +44,17 @@ Funciones Principales
 
 📥 Instalación y Uso
 Clona el repositorio:
-'''
+```
 git clone https://github.com/tu-usuario/KNN.git
-'''
+```
 Compila el programa:
-'''
+```
 gcc KNN.c -o knn -lm
-'''
+```
 Ejecuta el programa:
-'''
+```
 ./knn
-'''
+```
 
 ## ⚙️ Configuración
 You can modify the following parameters in `KNN.c`:
